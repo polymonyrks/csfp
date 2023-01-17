@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "csfp:lib"
+
+    - path: "./app/Main.hs"
+      component: "csfp:exe:csfp-exe"
+
+    - path: "./app/Paths_csfp.hs"
+      component: "csfp:exe:csfp-exe"
+
+    - path: "./test"
+      component: "csfp:test:csfp-test"
