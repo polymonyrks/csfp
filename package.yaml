@@ -2,9 +2,9 @@ name:                csfp
 version:             0.1.0.0
 github:              "githubuser/csfp"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2023 Author name here"
+author:              "Taichi Ishikawa"
+maintainer:          "polymonyrks@functoy.com"
+copyright:           "2023 Taichi Ishikawa"
 
 extra-source-files:
 - README.md
@@ -21,17 +21,18 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- unicode-show
 
-ghc-options:
-- -Wall
-- -Wcompat
-- -Widentities
-- -Wincomplete-record-updates
-- -Wincomplete-uni-patterns
-- -Wmissing-export-lists
-- -Wmissing-home-modules
-- -Wpartial-fields
-- -Wredundant-constraints
+# ghc-options:
+# - -Wall
+# - -Wcompat
+# - -Widentities
+# - -Wincomplete-record-updates
+# - -Wincomplete-uni-patterns
+# - -Wmissing-export-lists
+# - -Wmissing-home-modules
+# - -Wpartial-fields
+# - -Wredundant-constraints
 
 library:
   source-dirs: src
