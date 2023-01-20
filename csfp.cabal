@@ -25,7 +25,11 @@ source-repository head
 
 library
   exposed-modules:
+      FSemF
+      FSynF
       Lib
+      MCWPL
+      Model
   other-modules:
       Paths_csfp
   hs-source-dirs:

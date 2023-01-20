@@ -3,13 +3,11 @@
     -fwarn-monomorphism-restriction -fwarn-missing-signatures #-}
 -- {-# HLINT ignore "Functor law" #-}
 
-module Main (main) where
+module MCWPL () where
 
 import Lib
 import Data.List ( nub, sort )
 import System.IO
 import Data.Char
-
-main :: IO ()
-main = someFunc
-
+import FSynF
+import Model
